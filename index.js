@@ -22,7 +22,10 @@ app.use('/products', ProductRouter)
 
 
 
-let PORT = process.env.PORT || 8090
+// let PORT = process.env.PORT || 8090
+
+let PORT = 8000;
+
 app.listen(PORT, async () => {
     try {
         await connection
